@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"edu.kirkwood.shared","c":"Helpers","l":"Helpers()","u":"%3Cinit%3E()"},{"p":"edu.kirkwood.shared","c":"Helpers","l":"round(double, int)","u":"round(double,int)"}];updateSearchResults();
