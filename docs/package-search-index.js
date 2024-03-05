@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.kirkwood.dailyquiz"},{"l":"edu.kirkwood.demos"},{"l":"edu.kirkwood.shared"},{"l":"edu.kirkwood.week1demo"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.kirkwood.codingbat"}];updateSearchResults();

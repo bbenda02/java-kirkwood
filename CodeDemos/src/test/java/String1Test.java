@@ -73,4 +73,69 @@ public class String1Test {
         assertEquals("baaab", string1.comboString("aaa", "b"));
     }
 
+    // Homework: 7 Challenges from String 1
+    @Test
+    public void testNonStart() {
+        String1 string1 = new String1();
+
+        assertEquals("ellohere", string1.nonStart("Hello", "There"));
+        assertEquals("avaode", string1.nonStart("java", "code"));
+        assertEquals("hotlava", string1.nonStart("shotl", "java"));
+    }
+
+    @Test
+    public void testLeft2() {
+        String1 string1 = new String1();
+
+        assertEquals("lloHe", string1.left2("Hello"));
+        assertEquals("vaja", string1.left2("java"));
+        assertEquals("Hi", string1.left2("Hi"));
+    }
+
+    @Test
+    public void testRight2() {
+        String1 string1 = new String1();
+
+        assertEquals("loHel", string1.right2("Hello"));
+        assertEquals("vaja", string1.right2("java"));
+        assertEquals("Hi", string1.right2("Hi"));
+    }
+
+    @Test
+    public void testMiddleThree() {
+        String1 string1 = new String1();
+
+        assertEquals("and", string1.middleThree("Candy"));
+        assertEquals("and", string1.middleThree("and"));
+        assertEquals("lvi", string1.middleThree("solving"));
+    }
+
+    @Test
+    public void testLastTwo() {
+        String1 string1 = new String1();
+
+        assertEquals("codign", string1.lastTwo("coding"));
+        assertEquals("cta", string1.lastTwo("cat"));
+        assertEquals("ba", string1.lastTwo("ab"));
+    }
+
+    @Test
+    public void testSeeColor() {
+        String1 string1 = new String1();
+
+        assertEquals("red", string1.seeColor("redxx"));
+        assertEquals("", string1.seeColor("xxred"));
+        assertEquals("blue", string1.seeColor("blueTimes"));
+    }
+    @Test
+    public void testTheEnd() {
+        String1 string1 = new String1();
+
+        // Test cases
+        assertEquals("H", string1.theEnd("Hello", true));
+        assertEquals("o", string1.theEnd("Hello", false));
+        assertEquals("o", string1.theEnd("oh", true));
+    }
 }
+
+
